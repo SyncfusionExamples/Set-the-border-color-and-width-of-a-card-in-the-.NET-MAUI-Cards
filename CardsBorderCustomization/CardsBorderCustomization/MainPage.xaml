@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:cards="clr-namespace:Syncfusion.Maui.Cards;assembly=Syncfusion.Maui.Cards"
+             x:Class="CardsBorderCustomization.MainPage">
+
+    <StackLayout>
+        <cards:SfCardLayout HeightRequest="700"
+                            SwipeDirection="Left">
+            <cards:SfCardView BackgroundColor="Orange"
+                              BorderColor="Black"
+                              BorderWidth="5">
+                <Label HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center"
+                       Text="Orange" />
+            </cards:SfCardView>
+            <cards:SfCardView BackgroundColor="BlueViolet"
+                              BorderColor="Black"
+                              BorderWidth="5">
+                <Label HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center"
+                       Text="Violet" />
+            </cards:SfCardView>
+        </cards:SfCardLayout>
+    </StackLayout>
+
+</ContentPage>
